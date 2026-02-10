@@ -17,9 +17,14 @@ cask "vaxtly" do
 
   app "Vaxtly.app"
 
+  postflight do
+    system "xattr", "-dr", "com.apple.quarantine", "#{appdir}/Vaxtly.app"
+  end
+
   zap trash: [
     "~/Library/Application Support/Vaxtly",
     "~/Library/Preferences/com.vaxtly.app.plist",
     "~/Library/Saved Application State/com.vaxtly.app.savedState",
   ]
 end
+
