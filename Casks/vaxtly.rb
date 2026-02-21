@@ -1,13 +1,13 @@
 cask "vaxtly" do
-  version "0.2.2"
+  version "0.2.3"
 
   on_arm do
-    sha256 "08be152f9f501ec40b3b72dcb7787e2e0c1eb3f657b5bae37c766b4144a607f0"
+    sha256 "ed722738deef439ce2ed444fe5def8764caa430a9400908f11dda6a85af608a0"
     url "https://github.com/vaxtly/app/releases/download/v#{version}/Vaxtly-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "90f864997f249bbe2ac359d95b3857e29398ffabc733c45b4a5bc95e3c0de7ab"
+    sha256 "40652249627bf2271482a6176d9d6b03a537f943055149a1d1ed5b20cf154716"
     url "https://github.com/vaxtly/app/releases/download/v#{version}/Vaxtly-#{version}-x64.dmg"
   end
 
