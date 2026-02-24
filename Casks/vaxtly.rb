@@ -7,7 +7,7 @@ cask "vaxtly" do
   end
 
   on_intel do
-    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    sha256 "d6c6558aa20ea61980d15866b015205f48383cc072342575ef37f88dda339ccb"
     url "https://github.com/vaxtly/app/releases/download/v#{version}/Vaxtly-#{version}-x64.dmg"
   end
 
